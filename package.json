@@ -1,0 +1,48 @@
+{
+    "name": "evem",
+    "version": "1.0.0",
+    "description": "Simple Event Emitter using EventTarget",
+    "homepage": "https://github.com/sangupta/evem",
+    "type": "module",
+    "source": "evem.ts",
+    "module": "./dist/evem.js",
+    "main": "./dist/evem.cjs",
+    "umd:main": "dist/evem.umd.js",
+    "unpkg": "./dist/evem.umd.js",
+    "types": "./dist/evem.d.ts",
+    "exports": {
+        "types": "./dist/evem.d.ts",
+        "require": "./dist/evem.cjs",
+        "default": "./dist/evem.modern.js"
+    },
+    "author": {
+        "name": "Sandeep Gupta",
+        "email": "sandy.pec@gmail.com",
+        "url": "https://sangupta.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sangupta/evem"
+    },
+    "bugs": {
+        "url": "https://github.com/owner/project/issues"
+    },
+    "license": "MIT",
+    "files": [
+        "evem.ts",
+        "tsconfig.json",
+        "dist"
+    ],
+    "dependencies": {},
+    "devDependencies": {
+        "typescript": "^4.7.4",
+        "microbundle": "^0.15.1"
+    },
+    "scripts": {
+        "tsc": "tsc --noEmit",
+        "build": "microbundle"
+    },
+    "browserslist": [
+        "last 1 Chrome version"
+    ]
+}
