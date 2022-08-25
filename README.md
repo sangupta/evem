@@ -24,4 +24,4 @@ evem.emit('my-custom-event'); // this prints the console message
 
 # License
 
-[MIT](https://github.com/sangupta/evem/blob/main/LICENSE) License. Copyright (C) 2022, Sandeep Gupta.
+[MIT](https://github.com/sangupta/evem/blob/main/LICENSE) License. Copyright (c) 2022, Sandeep Gupta.
