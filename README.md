@@ -1,11 +1,17 @@
 # evem
 
-`evem` is a simple `EventTarget` based event emitter. The usual method
-names have been shortened to `on`, `off`, `once` and `emit`. The original
-`emitter` instance is exported as well for those just in case scenarios.
-The only reason this package exists is so that code duplication may be
-prevented. Otherwise, I end up recreating these in every other library
-project.
+`evem` is a simple `EventTarget` based event emitter. The following 
+methods are available on the `emitter`:
+
+* `on` - attach a listener
+* `off` - remove a listener
+* `once` - attach a listener to listen only once
+* `emit` - dispatch an event with optional custom payload
+
+The original `emitter` instance is exported as well for those just in 
+case scenarios. The only reason this package exists is so that code 
+duplication may be prevented. Otherwise, I end up recreating these in 
+every other library project.
 
 # Usage
 
