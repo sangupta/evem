@@ -25,7 +25,7 @@
         "url": "https://github.com/sangupta/evem"
     },
     "bugs": {
-        "url": "https://github.com/owner/project/issues"
+        "url": "https://github.com/sangupta/evem/issues"
     },
     "license": "MIT",
     "files": [
@@ -40,7 +40,9 @@
     },
     "scripts": {
         "tsc": "tsc --noEmit",
-        "build": "microbundle"
+        "clean": "rm -rf ./dist",
+        "build": "rm -rf ./dist && microbundle",
+        "test": ""
     },
     "browserslist": [
         "last 1 Chrome version"
