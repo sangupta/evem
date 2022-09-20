@@ -64,11 +64,9 @@ function emit(name: string, payload: object = {}) {
     emitter.dispatchEvent(event);
 }
 
-const evem = {
+export const evem = {
     on: on,
     off: off,
     once: once,
     emit: emit
 };
-
-export default evem;
